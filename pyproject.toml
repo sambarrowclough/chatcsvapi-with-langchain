@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["sam <sam.barrowclough@gmail.com>"]
 readme = "README.md"
-packages = [{include = "with_langchain"}]
+packages = [{include = "."}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
